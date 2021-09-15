@@ -1,7 +1,7 @@
 import Report, {
   ReportDetailSchema as reportDetailSchema,
 } from "../models/Report.js";
-import Helper from "../../utils/Helper.js";
+import Helper from "../utils/Helper.js";
 
 export default class ReportService {
   static async get(req) {
