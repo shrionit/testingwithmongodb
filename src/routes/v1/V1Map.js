@@ -1,7 +1,9 @@
 import ReportRoute from "./ReportRoute.js";
+import UserReportRoute from "./UserReportRoute.js";
 
 const maps = {
   reports: ReportRoute,
+  userreports: UserReportRoute,
   // register routes here for api v1
 };
 
